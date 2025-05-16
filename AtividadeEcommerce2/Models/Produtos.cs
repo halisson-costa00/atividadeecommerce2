@@ -1,7 +1,7 @@
 ﻿namespace AtividadeEcommerce2.Models
 {
    // Produto.cs
-{
+
 public class Produto
     {
 
