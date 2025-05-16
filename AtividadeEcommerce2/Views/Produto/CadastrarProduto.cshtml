@@ -1,5 +1,4 @@
-﻿﻿@model AtividadeEcommerce2.Models.Produto;
-
+﻿@model AtividadeEcommerce2.Models.Produto
 
 <h1>Cadastrar Produto</h1>
 
@@ -24,13 +23,13 @@
 
             <div class="form-group">
                 <label asp-for="Quantidade" class="control-label"></label>
-                <input asp-for="Quantidade" class="form-control" />
+                <input asp-for="Quantidade" class="form-control" type="number" />
                 <span asp-validation-for="Quantidade" class="text-danger"></span>
             </div>
 
             <div class="form-group">
                 <label asp-for="Preco" class="control-label"></label>
-                <input asp-for="Preco" class="form-control" />
+                <input asp-for="Preco" class="form-control" type="number" step="0.01" />
                 <span asp-validation-for="Preco" class="text-danger"></span>
             </div>
 
@@ -44,3 +43,9 @@
 <div>
     <a asp-action="Index">Voltar</a>
 </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
