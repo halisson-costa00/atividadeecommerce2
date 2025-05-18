@@ -1,0 +1,38 @@
+﻿body {
+    background: linear-gradient(135deg, #fdfcff, #8400bb); /* fundo roxo degradê */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; /* alinhado ao topo */
+    align-items: center; /* centralizado horizontalmente */
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.table {
+    transition: all 0.5s;
+}
+
+    .table:hover {
+        transform: scale(1.05);
+        margin-top: 10px;
+    }
+
+.btn-primary {
+    width: 160px;
+    transition: all 0.5s;
+    background-color: #6a0dad; /* roxo claro */
+    color: white;
+    border: none;
+    padding: 12px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        width: 200px;
+        background-color: #530f91; /* roxo escuro */
+    }

@@ -1,0 +1,37 @@
+﻿body {
+    background-color: #000d4e;
+    color: white;
+}
+
+.table, form {
+    color: white;
+    background-color: #ffffff3a;
+    padding: 10px;
+    border: 2px solid #ffffff3a;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 6px 1px black;
+}
+
+
+.btn-primary {
+    background-color: #2f049b;
+    border-color: #2f049b;
+}
+
+    .btn-primary:hover {
+        background-color: #250085;
+        border-color: #250085;
+    }
+
+.btn-warning {
+    background-color: #2f049b;
+    color: white;
+    border-color: #2f049b;
+}
+
+    .btn-warning:hover {
+        background-color: #170052;
+        color: white;
+        border-color: #170052;
+    }

@@ -1,8 +1,8 @@
-using System.Diagnostics;
 using AtividadeEcommerce2.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
-namespace AtividadeEcommerce2.Controllers
+namespace GamesEcommerce.Controllers
 {
     public class HomeController : Controller
     {
